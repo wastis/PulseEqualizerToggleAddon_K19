@@ -1,4 +1,4 @@
-Kodi PulseEqualizerToggle Addon 
+PulseEqualizerToggle Addon for Kodi 19
 
 PulseEqualizerToggle is a Kodi plugin to toggle between different PulseAudio Equalizer profiles.
 
@@ -14,9 +14,9 @@ Purpose: toggle between PulseAudio Equalizer profiles.
 Installation
 ============
 
-In addition to pulseaudio, it requires pulseaudio-equalizer and  python-dbus to be installed
+In addition to pulseaudio, it requires pulseaudio-equalizer to be installed
 
-sudo apt install python-dbus, pulseaudio-equalizer
+sudo apt install pulseaudio-equalizer
 
 pactl load-module module-equalizer-sink
 pactl load-module module-dbus-protocol
