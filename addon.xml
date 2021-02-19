@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.pulseequalizer.toggle" name="PulseEqualizer Toggle" version="1.0.1" provider-name="wastis">
+    <requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>	
+    <extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>linux</platform>
+		<summary lang="en">Toggles PulseAudio Equalizer profiles</summary>
+		<description lang="en">Pops up a selection menu for selecting a PulseAudio Equalizer profile, defined within PulseAudio Equalizer. Requires PulseAudio Equalizer to be installed.</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum>https://forum.kodi.tv/showthread.php?tid=360514</forum>
+		<source>https://github.com/wastis/PulseEqualizerToggleAddon</source>
+		<website>Kodi.tv</website>
+		<email></email>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+		<news>Migrate to dbussy, Kodi 19 support</news>
+	</extension>
+</addon>
